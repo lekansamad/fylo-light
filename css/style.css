@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size:1rem;
+}
+
+/* header section */
+
+header{
+    font-family:'Raleway', sans-serif;
+    padding: 1% 4% 14% 4%;
+    /* margin-bottom: 8%; */
+    background-image: url("../images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:bottom 0 left 0 ;
+    
+}
+
+
+
+.nav-link{
+    color:black;
+}
+
+.hero-container{
+    margin-top: 5%;
+}
+
+.start-btn{
+    width: 60%;
+    
+}
+
+.form-row{
+    padding-top:2%;
+}
+
+.pad{
+    padding-top: 5%;
+}
+
+/* team section */
+.team-section{
+    background-color: rgb(248,248,254);
+    padding: 1% 4% 14% 4%;
+}
+
+.box{
+color: black;
+}
+
+.wer,.wer:hover{
+    color: #6DB7AB;
+    text-decoration: none;
+    border-bottom: 1px solid #6DB7AB;
+    padding-bottom: 1%;
+}
+
+.ert{
+    margin-top:10%;
+    padding: 3%;
+    background-color: white;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 5px 5px  #6DB7AB;
+    
+}
+
+.team-member{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.team-member-img{
+    border-radius: 95% !important;
+}
+
+.person-details{
+    padding-left: 6%;
+}
+
+
+.end{
+    background-color:hsl(238, 22%, 44%);
+    padding: 5%;
+}
+
+.liv{
+    color: white;
+}
+
+.email-input{
+    width:80%;
+}
+.get-input{
+    width: 50%;
+}
+
+
+.ver{
+    padding-top: 1%;
+}
+
+/* footer section */
+
+.footer-logo{
+    margin-bottom: 2%;
+}
+
+.footer-section{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 5% 4%;
+}
+
+.footer-section a{
+    display: block;
+}
+
+.non-block a{
+    display: inline;
+}
+
+.footer-section a, .non-block a{
+    color: white;
+}
+.footer-section a:hover, .non-block a:hover{
+   text-decoration: none;
+   color: #6DB7AB;
+}
+
+
+
+
+/* media queries */
+@media screen and (min-width:768px){
+     .row-small{
+      display:none;
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+
+    .row-small{
+        display:block;
+    }
+
+    .row-big{
+        display: none;
+    }
+
+    .pad{
+        text-align:center;
+        margin-bottom: 6%;
+    }
+
+
+    h1{
+        font-size:1.7rem !important;
+
+    }
+
+    .start-btn{
+        width: 100%;
+    }
+
+    .gty{
+        margin-top:4px;
+    }
+    
+    .hiw{
+        text-align: center;
+    }
+    .mok{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quotext{
+        text-align: left;
+    }
+
+    .get-input,.email-input{
+        width: 100%;
+    }
+
+    .bul{
+        text-align: center;
+    }
+
+}
+
